@@ -9,8 +9,8 @@ _with Selenium 2, Cucumber, and Java
 - Build
     `mvn clean install`
 - Run
-feature: srs/test/home/credit/feature
-glue: base step.definition
++feature: srs/test/home/credit/feature
++glue: base step.definition
 
 - Test runner:
 update later
