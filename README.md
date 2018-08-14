@@ -1,5 +1,5 @@
 # guru-bank
-Automation BDD framework with java selenium 2
+Automation BDD framework for http://demo.guru99.com/v4
 _with Selenium 2, Cucumber, and Java
 
 
