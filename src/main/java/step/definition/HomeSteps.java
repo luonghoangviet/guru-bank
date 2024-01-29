@@ -1,7 +1,7 @@
 package step.definition;
 
 import base.TestBase;
-import cucumber.api.java.en.Given;
+import io.cucumber.java.en.Given;
 import pages.HomePage;
 
 /**

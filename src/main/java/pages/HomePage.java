@@ -1,7 +1,7 @@
 package pages;
 
 import base.TestBase;
-import cucumber.api.java.en.Given;
+import io.cucumber.java.en.Given;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 

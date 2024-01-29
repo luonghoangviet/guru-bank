@@ -1,5 +1,9 @@
 package model;
 
+import io.cucumber.java.DataTableType;
+
+import java.util.Map;
+
 /**
  * Created by vietluong on 8/12/2018.
  */
@@ -14,6 +18,19 @@ public class NewCustomer {
     private String mobileNumber;
     private String email;
     private String password;
+
+    public NewCustomer(String customerName, String gender, String dob, String address, String city, String state, String pin, String mobileNumber, String email, String password) {
+        this.customerName = customerName;
+        this.gender = gender;
+        this.dob = dob;
+        this.address = address;
+        this.city = city;
+        this.state = state;
+        this.pin = pin;
+        this.mobileNumber = mobileNumber;
+        this.email = email;
+        this.password = password;
+    }
 
     public String getCustomerName() {
         return customerName;
@@ -94,4 +111,9 @@ public class NewCustomer {
     public void setPassword(String password) {
         this.password = password;
     }
+
+//    @DataTableType
+//    public NewCustomer newCustomertEntry(Map<String, String> entry) {
+//        return new NewCustomer(entry.get("customerName"), entry.get("gender"), entry.get("dob"), entry.get("address"), entry.get("city"), entry.get("state"), entry.get("pin"), entry.get("mobileNumber"), entry.get("email"), entry.get("password"));
+//    }
 }

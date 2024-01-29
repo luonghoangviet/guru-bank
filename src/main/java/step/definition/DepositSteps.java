@@ -1,10 +1,9 @@
 package step.definition;
 
 import base.TestBase;
-import cucumber.api.DataTable;
-import cucumber.api.java.en.When;
+import io.cucumber.datatable.DataTable;
+import io.cucumber.java.en.When;
 import model.Deposit;
-import model.NewAccount;
 import pages.DepositPage;
 
 import java.util.List;

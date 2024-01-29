@@ -1,7 +1,9 @@
 package base;
 
-import cucumber.api.java.After;
-import cucumber.api.java.Before;
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
 
 /**
  * Created by vietluong on 8/11/2018.
