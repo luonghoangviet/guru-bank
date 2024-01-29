@@ -15,14 +15,6 @@ import java.util.Map;
  */
 public class NewCustomerSteps extends TestBase {
     NewCustomerPage newCustomerPage = new NewCustomerPage();
-
-//    @Then("^I create a new customer with information as following:$")
-//    public void createNewCustomer(DataTable dataTable) {
-//        List<NewCustomer> customerList = dataTable.asList(NewCustomer.class);
-////        List<NewCustomer> customerList = dataTable.convert(NewCustomer.class)
-//        newCustomerPage.createNewCustommer(customerList.get(0));
-//    }
-//    List<Income> incomes
 @DataTableType
 public NewCustomer newCustomertEntry(Map<String, String> entry) {
     return new NewCustomer(entry.get("customerName"), entry.get("gender"), entry.get("dob"), entry.get("address"), entry.get("city"), entry.get("state"), entry.get("pin"), entry.get("mobileNumber"), entry.get("email"), entry.get("password"));
